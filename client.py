@@ -1,5 +1,5 @@
-import hashpumpy # type: ignore
-from server import verify # type: ignore
+import hashpumpy 
+from server import verify 
 
 original_message = b"amount=100&to=alice"
 original_mac = "614d28d808af46d3702fe35fae67267c"
